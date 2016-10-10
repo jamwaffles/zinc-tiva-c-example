@@ -1,0 +1,21 @@
+[package]
+name = "zinc_from_scratch_launchpad"
+version = "0.1.0"
+authors = ["James Waples <jamwaffles@gmail.com>"]
+
+[dependencies]
+rust-libcore = "*"
+# regex = "*"
+
+[dependencies.zinc]
+path = "../zinc"
+features = ["mcu_tiva_c"]
+
+[dependencies.macro_platformtree]
+path = "../zinc/macro_platformtree"
+
+[dependencies.ioreg]
+path = "../zinc/ioreg"
+
+[dependencies.platformtree]
+path = "../zinc/platformtree"
