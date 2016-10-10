@@ -8,14 +8,21 @@ rust-libcore = "*"
 # regex = "*"
 
 [dependencies.zinc]
-path = "../zinc"
-features = ["mcu_tiva_c"]
+git = "https://github.com/jamwaffles/zinc"
+branch = "tiva-c-regression-fix"
+features = [ "mcu_tiva_c" ]
 
 [dependencies.macro_platformtree]
-path = "../zinc/macro_platformtree"
+git = "https://github.com/jamwaffles/zinc"
+branch = "tiva-c-regression-fix"
+path = "macro_platformtree"
 
 [dependencies.ioreg]
-path = "../zinc/ioreg"
+git = "https://github.com/jamwaffles/zinc"
+branch = "tiva-c-regression-fix"
+path = "ioreg"
 
 [dependencies.platformtree]
-path = "../zinc/platformtree"
+git = "https://github.com/jamwaffles/zinc"
+branch = "tiva-c-regression-fix"
+path = "platformtree"
